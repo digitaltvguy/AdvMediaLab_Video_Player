@@ -1,0 +1,409 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7E0CC17E24C5FD0800DB55E3 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 7E0CC17D24C5FD0800DB55E3 /* Settings.bundle */; };
+		7E42BA7C21D0710400B29659 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E42BA7B21D0710400B29659 /* AppDelegate.swift */; };
+		7E42BA7E21D0710400B29659 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E42BA7D21D0710400B29659 /* ViewController.swift */; };
+		7E42BA8121D0710400B29659 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E42BA7F21D0710400B29659 /* Main.storyboard */; };
+		7E42BA8321D0710600B29659 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E42BA8221D0710600B29659 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7E0CC17D24C5FD0800DB55E3 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = Settings.bundle; path = AdvMediaLabVideoPlayertvOS/Settings.bundle; sourceTree = "<group>"; };
+		7E42BA7821D0710400B29659 /* AdvMediaLab Video Player.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AdvMediaLab Video Player.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E42BA7B21D0710400B29659 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7E42BA7D21D0710400B29659 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7E42BA8221D0710600B29659 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7E42BA8D21D0710600B29659 /* AdvMediaLabVideoPlayertvOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvMediaLabVideoPlayertvOSTests.swift; sourceTree = "<group>"; };
+		7E42BA9821D0710600B29659 /* AdvMediaLabVideoPlayertvOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvMediaLabVideoPlayertvOSUITests.swift; sourceTree = "<group>"; };
+		7EE5322121D13AA3001F7FB9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = en; path = en.lproj/Info.plist; sourceTree = "<group>"; };
+		7EE5322321D13AD1001F7FB9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = en; path = en.lproj/Info.plist; sourceTree = "<group>"; };
+		7EE5322521D13AD8001F7FB9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = en; path = en.lproj/Info.plist; sourceTree = "<group>"; };
+		7EE5322A21D13C07001F7FB9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/Main.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7E42BA7521D0710400B29659 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7E42BA6F21D0710400B29659 = {
+			isa = PBXGroup;
+			children = (
+				7E0CC17D24C5FD0800DB55E3 /* Settings.bundle */,
+				7E42BA7A21D0710400B29659 /* AdvMediaLabVideoPlayertvOS */,
+				7E42BA8C21D0710600B29659 /* AdvMediaLabVideoPlayertvOSTests */,
+				7E42BA9721D0710600B29659 /* AdvMediaLabVideoPlayertvOSUITests */,
+				7E42BA7921D0710400B29659 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7E42BA7921D0710400B29659 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7E42BA7821D0710400B29659 /* AdvMediaLab Video Player.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7E42BA7A21D0710400B29659 /* AdvMediaLabVideoPlayertvOS */ = {
+			isa = PBXGroup;
+			children = (
+				7E42BA7B21D0710400B29659 /* AppDelegate.swift */,
+				7E42BA7D21D0710400B29659 /* ViewController.swift */,
+				7E42BA7F21D0710400B29659 /* Main.storyboard */,
+				7E42BA8221D0710600B29659 /* Assets.xcassets */,
+				7EE5322221D13AA3001F7FB9 /* Info.plist */,
+			);
+			path = AdvMediaLabVideoPlayertvOS;
+			sourceTree = "<group>";
+		};
+		7E42BA8C21D0710600B29659 /* AdvMediaLabVideoPlayertvOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				7E42BA8D21D0710600B29659 /* AdvMediaLabVideoPlayertvOSTests.swift */,
+				7EE5322421D13AD1001F7FB9 /* Info.plist */,
+			);
+			path = AdvMediaLabVideoPlayertvOSTests;
+			sourceTree = "<group>";
+		};
+		7E42BA9721D0710600B29659 /* AdvMediaLabVideoPlayertvOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7E42BA9821D0710600B29659 /* AdvMediaLabVideoPlayertvOSUITests.swift */,
+				7EE5322621D13AD8001F7FB9 /* Info.plist */,
+			);
+			path = AdvMediaLabVideoPlayertvOSUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7E42BA7721D0710400B29659 /* AdvTech Video Player */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E42BA9D21D0710600B29659 /* Build configuration list for PBXNativeTarget "AdvTech Video Player" */;
+			buildPhases = (
+				7E42BA7421D0710400B29659 /* Sources */,
+				7E42BA7521D0710400B29659 /* Frameworks */,
+				7E42BA7621D0710400B29659 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AdvTech Video Player";
+			productName = NBCU_tvOS_HLS_fmp4_Player_AVFound;
+			productReference = 7E42BA7821D0710400B29659 /* AdvMediaLab Video Player.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7E42BA7021D0710400B29659 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1230;
+				ORGANIZATIONNAME = NBCUniversal;
+				TargetAttributes = {
+					7E42BA7721D0710400B29659 = {
+						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1230;
+					};
+				};
+			};
+			buildConfigurationList = 7E42BA7321D0710400B29659 /* Build configuration list for PBXProject "AdvMediaLabVideoPlayertvOS" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7E42BA6F21D0710400B29659;
+			productRefGroup = 7E42BA7921D0710400B29659 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7E42BA7721D0710400B29659 /* AdvTech Video Player */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7E42BA7621D0710400B29659 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E42BA8321D0710600B29659 /* Assets.xcassets in Resources */,
+				7E0CC17E24C5FD0800DB55E3 /* Settings.bundle in Resources */,
+				7E42BA8121D0710400B29659 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7E42BA7421D0710400B29659 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E42BA7E21D0710400B29659 /* ViewController.swift in Sources */,
+				7E42BA7C21D0710400B29659 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7E42BA7F21D0710400B29659 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7EE5322A21D13C07001F7FB9 /* en */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7EE5322221D13AA3001F7FB9 /* Info.plist */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7EE5322121D13AA3001F7FB9 /* en */,
+			);
+			name = Info.plist;
+			sourceTree = "<group>";
+		};
+		7EE5322421D13AD1001F7FB9 /* Info.plist */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7EE5322321D13AD1001F7FB9 /* en */,
+			);
+			name = Info.plist;
+			sourceTree = "<group>";
+		};
+		7EE5322621D13AD8001F7FB9 /* Info.plist */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7EE5322521D13AD8001F7FB9 /* en */,
+			);
+			name = Info.plist;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7E42BA9B21D0710600B29659 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALLOW_TARGET_PLATFORM_SPECIALIZATION = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_MODULE_NAME = AdvMediaLabVideoPlayertvOS;
+				SDKROOT = appletvos;
+				SUPPORTED_PLATFORMS = "appletvsimulator appletvos";
+				SUPPORTS_MACCATALYST = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TVOS_DEPLOYMENT_TARGET = 16.0;
+			};
+			name = Debug;
+		};
+		7E42BA9C21D0710600B29659 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALLOW_TARGET_PLATFORM_SPECIALIZATION = YES;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_MODULE_NAME = AdvMediaLabVideoPlayertvOS;
+				SDKROOT = appletvos;
+				SUPPORTED_PLATFORMS = "appletvsimulator appletvos";
+				SUPPORTS_MACCATALYST = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				TVOS_DEPLOYMENT_TARGET = 16.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7E42BA9E21D0710600B29659 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon -and- Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = 4422LYPTWW;
+				INFOPLIST_FILE = AdvMediaLabVideoPlayertvOS/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Advanced Media Lab tvOS VIdeo Player";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.entertainment";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.9;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nbcuni.tvOS-advmediatvOS";
+				PRODUCT_NAME = "AdvMediaLab Video Player";
+				SUPPORTED_PLATFORMS = "appletvos appletvsimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		7E42BA9F21D0710600B29659 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon -and- Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = 4422LYPTWW;
+				INFOPLIST_FILE = AdvMediaLabVideoPlayertvOS/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Advanced Media Lab tvOS VIdeo Player";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.entertainment";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.9;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nbcuni.tvOS-advmediatvOS";
+				PRODUCT_NAME = "AdvMediaLab Video Player";
+				SUPPORTED_PLATFORMS = "appletvos appletvsimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7E42BA7321D0710400B29659 /* Build configuration list for PBXProject "AdvMediaLabVideoPlayertvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E42BA9B21D0710600B29659 /* Debug */,
+				7E42BA9C21D0710600B29659 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7E42BA9D21D0710600B29659 /* Build configuration list for PBXNativeTarget "AdvTech Video Player" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E42BA9E21D0710600B29659 /* Debug */,
+				7E42BA9F21D0710600B29659 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7E42BA7021D0710400B29659 /* Project object */;
+}
