@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  NBCU_tvOS_HLS_fmp4_Player_AVFound
+//  NBCU_HLS_fmp4_Video_Player_AVFound
 //
-//  Created by Chris Seeger on 10/04/22.
+//  Created by Chris Seeger on 11/14/22.
 //  Copyright © 2022 NBCUniversal. All rights reserved.
 //
 

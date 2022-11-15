@@ -3,25 +3,25 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 56;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7E0CC17E24C5FD0800DB55E3 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 7E0CC17D24C5FD0800DB55E3 /* Settings.bundle */; };
 		7E42BA7C21D0710400B29659 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E42BA7B21D0710400B29659 /* AppDelegate.swift */; };
 		7E42BA7E21D0710400B29659 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E42BA7D21D0710400B29659 /* ViewController.swift */; };
 		7E42BA8121D0710400B29659 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E42BA7F21D0710400B29659 /* Main.storyboard */; };
 		7E42BA8321D0710600B29659 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E42BA8221D0710600B29659 /* Assets.xcassets */; };
+		7E5B649929231EB7009B8A9C /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 7E5B649829231EB7009B8A9C /* Settings.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		7E0CC17D24C5FD0800DB55E3 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = Settings.bundle; path = AdvMediaLabVideoPlayertvOS/Settings.bundle; sourceTree = "<group>"; };
 		7E42BA7821D0710400B29659 /* AdvMediaLab Video Player.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AdvMediaLab Video Player.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E42BA7B21D0710400B29659 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7E42BA7D21D0710400B29659 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		7E42BA8221D0710600B29659 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		7E42BA8D21D0710600B29659 /* AdvMediaLabVideoPlayertvOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvMediaLabVideoPlayertvOSTests.swift; sourceTree = "<group>"; };
-		7E42BA9821D0710600B29659 /* AdvMediaLabVideoPlayertvOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvMediaLabVideoPlayertvOSUITests.swift; sourceTree = "<group>"; };
+		7E42BA8D21D0710600B29659 /* AdvMediaLabVideoPlayerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvMediaLabVideoPlayerTests.swift; sourceTree = "<group>"; };
+		7E42BA9821D0710600B29659 /* AdvMediaLabVideoPlayerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvMediaLabVideoPlayerUITests.swift; sourceTree = "<group>"; };
+		7E5B649829231EB7009B8A9C /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = Settings.bundle; path = AdvMediaLabVideoPlayer/Settings.bundle; sourceTree = "<group>"; };
 		7EE5322121D13AA3001F7FB9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = en; path = en.lproj/Info.plist; sourceTree = "<group>"; };
 		7EE5322321D13AD1001F7FB9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = en; path = en.lproj/Info.plist; sourceTree = "<group>"; };
 		7EE5322521D13AD8001F7FB9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = en; path = en.lproj/Info.plist; sourceTree = "<group>"; };
@@ -42,10 +42,10 @@
 		7E42BA6F21D0710400B29659 = {
 			isa = PBXGroup;
 			children = (
-				7E0CC17D24C5FD0800DB55E3 /* Settings.bundle */,
-				7E42BA7A21D0710400B29659 /* AdvMediaLabVideoPlayertvOS */,
-				7E42BA8C21D0710600B29659 /* AdvMediaLabVideoPlayertvOSTests */,
-				7E42BA9721D0710600B29659 /* AdvMediaLabVideoPlayertvOSUITests */,
+				7E5B649829231EB7009B8A9C /* Settings.bundle */,
+				7E42BA7A21D0710400B29659 /* AdvMediaLabVideoPlayer */,
+				7E42BA8C21D0710600B29659 /* AdvMediaLabVideoPlayerTests */,
+				7E42BA9721D0710600B29659 /* AdvMediaLabVideoPlayerUITests */,
 				7E42BA7921D0710400B29659 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -58,7 +58,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		7E42BA7A21D0710400B29659 /* AdvMediaLabVideoPlayertvOS */ = {
+		7E42BA7A21D0710400B29659 /* AdvMediaLabVideoPlayer */ = {
 			isa = PBXGroup;
 			children = (
 				7E42BA7B21D0710400B29659 /* AppDelegate.swift */,
@@ -67,25 +67,25 @@
 				7E42BA8221D0710600B29659 /* Assets.xcassets */,
 				7EE5322221D13AA3001F7FB9 /* Info.plist */,
 			);
-			path = AdvMediaLabVideoPlayertvOS;
+			path = AdvMediaLabVideoPlayer;
 			sourceTree = "<group>";
 		};
-		7E42BA8C21D0710600B29659 /* AdvMediaLabVideoPlayertvOSTests */ = {
+		7E42BA8C21D0710600B29659 /* AdvMediaLabVideoPlayerTests */ = {
 			isa = PBXGroup;
 			children = (
-				7E42BA8D21D0710600B29659 /* AdvMediaLabVideoPlayertvOSTests.swift */,
+				7E42BA8D21D0710600B29659 /* AdvMediaLabVideoPlayerTests.swift */,
 				7EE5322421D13AD1001F7FB9 /* Info.plist */,
 			);
-			path = AdvMediaLabVideoPlayertvOSTests;
+			path = AdvMediaLabVideoPlayerTests;
 			sourceTree = "<group>";
 		};
-		7E42BA9721D0710600B29659 /* AdvMediaLabVideoPlayertvOSUITests */ = {
+		7E42BA9721D0710600B29659 /* AdvMediaLabVideoPlayerUITests */ = {
 			isa = PBXGroup;
 			children = (
-				7E42BA9821D0710600B29659 /* AdvMediaLabVideoPlayertvOSUITests.swift */,
+				7E42BA9821D0710600B29659 /* AdvMediaLabVideoPlayerUITests.swift */,
 				7EE5322621D13AD8001F7FB9 /* Info.plist */,
 			);
-			path = AdvMediaLabVideoPlayertvOSUITests;
+			path = AdvMediaLabVideoPlayerUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -115,7 +115,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1010;
-				LastUpgradeCheck = 1230;
+				LastUpgradeCheck = 1410;
 				ORGANIZATIONNAME = NBCUniversal;
 				TargetAttributes = {
 					7E42BA7721D0710400B29659 = {
@@ -124,8 +124,8 @@
 					};
 				};
 			};
-			buildConfigurationList = 7E42BA7321D0710400B29659 /* Build configuration list for PBXProject "AdvMediaLabVideoPlayertvOS" */;
-			compatibilityVersion = "Xcode 9.3";
+			buildConfigurationList = 7E42BA7321D0710400B29659 /* Build configuration list for PBXProject "AdvMediaLabVideoPlayer" */;
+			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -148,7 +148,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7E42BA8321D0710600B29659 /* Assets.xcassets in Resources */,
-				7E0CC17E24C5FD0800DB55E3 /* Settings.bundle in Resources */,
+				7E5B649929231EB7009B8A9C /* Settings.bundle in Resources */,
 				7E42BA8121D0710400B29659 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,8 +257,8 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
-				ONLY_ACTIVE_ARCH = NO;
-				PRODUCT_MODULE_NAME = AdvMediaLabVideoPlayertvOS;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_MODULE_NAME = AdvMediaLabVideoPlayer;
 				SDKROOT = appletvos;
 				SUPPORTED_PLATFORMS = "appletvsimulator appletvos";
 				SUPPORTS_MACCATALYST = YES;
@@ -317,7 +317,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = NO;
-				PRODUCT_MODULE_NAME = AdvMediaLabVideoPlayertvOS;
+				PRODUCT_MODULE_NAME = AdvMediaLabVideoPlayer;
 				SDKROOT = appletvos;
 				SUPPORTED_PLATFORMS = "appletvsimulator appletvos";
 				SUPPORTS_MACCATALYST = YES;
@@ -334,17 +334,17 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon -and- Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_TEAM = 4422LYPTWW;
-				INFOPLIST_FILE = AdvMediaLabVideoPlayertvOS/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = "Advanced Media Lab tvOS VIdeo Player";
+				INFOPLIST_FILE = AdvMediaLabVideoPlayer/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Advanced Media Lab VIdeo Player";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.entertainment";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.9;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.nbcuni.tvOS-advmediatvOS";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nbcuni.advmediavideoplayer;
 				PRODUCT_NAME = "AdvMediaLab Video Player";
 				SUPPORTED_PLATFORMS = "appletvos appletvsimulator";
 				SUPPORTS_MACCATALYST = NO;
@@ -361,17 +361,17 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon -and- Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_TEAM = 4422LYPTWW;
-				INFOPLIST_FILE = AdvMediaLabVideoPlayertvOS/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = "Advanced Media Lab tvOS VIdeo Player";
+				INFOPLIST_FILE = AdvMediaLabVideoPlayer/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Advanced Media Lab VIdeo Player";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.entertainment";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.9;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.nbcuni.tvOS-advmediatvOS";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nbcuni.advmediavideoplayer;
 				PRODUCT_NAME = "AdvMediaLab Video Player";
 				SUPPORTED_PLATFORMS = "appletvos appletvsimulator";
 				SUPPORTS_MACCATALYST = NO;
@@ -385,7 +385,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		7E42BA7321D0710400B29659 /* Build configuration list for PBXProject "AdvMediaLabVideoPlayertvOS" */ = {
+		7E42BA7321D0710400B29659 /* Build configuration list for PBXProject "AdvMediaLabVideoPlayer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7E42BA9B21D0710600B29659 /* Debug */,
