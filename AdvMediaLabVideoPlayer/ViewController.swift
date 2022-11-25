@@ -35,7 +35,7 @@ class ViewController: UIViewController, AVAudioPlayerDelegate {
     @IBOutlet weak var aButton: UIButton!
     @IBOutlet weak var bButton: UIButton!
     @IBOutlet weak var cButton: UIButton!
-    
+    @IBOutlet weak var dButton: UIButton!
     
     
     // Update Button A,B,C Labels when app moves to foreground
@@ -64,6 +64,9 @@ class ViewController: UIViewController, AVAudioPlayerDelegate {
         
         let cButtonLabelText = userDefaults.string(forKey: "c_button_label")
         cButton.setTitle(cButtonLabelText, for: .normal)
+        
+        let dButtonLabelText = userDefaults.string(forKey: "d_button_label")
+        dButton.setTitle(dButtonLabelText, for: .normal)
         
         registerSettingsBundle()
         loadDefaults()
@@ -100,7 +103,7 @@ class ViewController: UIViewController, AVAudioPlayerDelegate {
     
     
     
-    @IBAction func btnUHDVideoPlayerTapped(_ sender: Any) {
+    @IBAction func aBtnTapped(_ sender: Any) {
         
         let userDefaults = UserDefaults.standard
         userDefaults.synchronize()
@@ -123,7 +126,7 @@ class ViewController: UIViewController, AVAudioPlayerDelegate {
         
     }
     
-    @IBAction func btn1080PVideoPlayTapped(_ sender: Any) {
+    @IBAction func bBtnTapped(_ sender: Any) {
         let userDefaults = UserDefaults.standard
         userDefaults.synchronize()
         let streamURL = userDefaults.string(forKey: "b_url")
@@ -147,7 +150,7 @@ class ViewController: UIViewController, AVAudioPlayerDelegate {
     }
     
     
-    @IBAction func btn720VideoPlayerTapped(_ sender: Any) {
+    @IBAction func cBtnTapped(_ sender: Any) {
         let userDefaults = UserDefaults.standard
         userDefaults.synchronize()
         let streamURL = userDefaults.string(forKey: "c_url")
@@ -166,6 +169,29 @@ class ViewController: UIViewController, AVAudioPlayerDelegate {
         // Update button text from root preferences bundle
         let cButtonLabelText = userDefaults.string(forKey: "c_button_label")
         cButton.setTitle(cButtonLabelText, for: .normal)
+        
+        
+    }
+    
+    @IBAction func dBtnTapped(_ sender: Any) {
+        let userDefaults = UserDefaults.standard
+        userDefaults.synchronize()
+        let streamURL = userDefaults.string(forKey: "d_url")
+        
+        guard let VideoURL = URL(string: streamURL!) else {
+            debugPrint ("URL not found")
+            return
+        }
+        let player = AVPlayer(url: VideoURL)
+        let playerController = AVPlayerViewController()
+        playerController.player = player
+        present(playerController, animated: true){
+            player.play()
+        }
+        
+        // Update button text from root preferences bundle
+        let dButtonLabelText = userDefaults.string(forKey: "d_button_label")
+        dButton.setTitle(dButtonLabelText, for: .normal)
         
         
     }

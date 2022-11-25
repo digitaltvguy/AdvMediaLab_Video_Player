@@ -2,16 +2,16 @@
 <document type="com.apple.InterfaceBuilder.AppleTV.Storyboard" version="3.0" toolsVersion="21507" targetRuntime="AppleTV" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="appleTV" appearance="dark"/>
     <dependencies>
+        <deployment identifier="tvOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
-        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="AdvMediaLabVideoPlayertvOS" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="AdvMediaLabVideoPlayer" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -26,39 +26,46 @@
                                 <color key="backgroundColor" systemColor="darkTextColor"/>
                                 <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7wb-qA-PDV">
-                                <rect key="frame" x="660" y="352" width="600" height="86"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" systemColor="viewFlipsideBackgroundColor"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7wb-qA-PDV">
+                                <rect key="frame" x="660" y="257" width="600" height="86"/>
+                                <color key="backgroundColor" red="0.42352938649999999" green="0.43137252329999998" blue="0.44313728810000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="86" id="Zft-nh-bww"/>
+                                    <constraint firstAttribute="width" constant="600" id="zdo-Pm-Tbc"/>
+                                </constraints>
                                 <inset key="contentEdgeInsets" minX="40" minY="20" maxX="40" maxY="20"/>
                                 <state key="normal" title="URL B"/>
                                 <connections>
-                                    <action selector="btn1080PVideoPlayTapped:" destination="BYZ-38-t0r" eventType="primaryActionTriggered" id="yy8-3Y-Ggj"/>
+                                    <action selector="bBtnTapped:" destination="BYZ-38-t0r" eventType="primaryActionTriggered" id="KiO-h9-TPP"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3bF-Hx-aCJ">
-                                <rect key="frame" x="660" y="462" width="600" height="86"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" systemColor="viewFlipsideBackgroundColor"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3bF-Hx-aCJ">
+                                <rect key="frame" x="660" y="367" width="600" height="86"/>
+                                <color key="backgroundColor" red="0.42352938649999999" green="0.42745098469999998" blue="0.44313728810000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <inset key="contentEdgeInsets" minX="40" minY="20" maxX="40" maxY="20"/>
                                 <state key="normal" title="URL C"/>
                                 <connections>
-                                    <action selector="btn720VideoPlayerTapped:" destination="BYZ-38-t0r" eventType="primaryActionTriggered" id="1hg-ga-Ekj"/>
+                                    <action selector="cBtnTapped:" destination="BYZ-38-t0r" eventType="primaryActionTriggered" id="m3f-TB-lGk"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yff-fz-HBa">
-                                <rect key="frame" x="660" y="242" width="600" height="86"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" systemColor="viewFlipsideBackgroundColor"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yff-fz-HBa">
+                                <rect key="frame" x="660" y="147" width="600" height="86"/>
+                                <color key="backgroundColor" red="0.42352938649999999" green="0.43137252329999998" blue="0.44313728810000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="86" id="7KB-Of-CT7"/>
+                                    <constraint firstAttribute="width" constant="600" id="aID-w9-A9k"/>
+                                </constraints>
                                 <inset key="contentEdgeInsets" minX="40" minY="20" maxX="40" maxY="20"/>
                                 <state key="normal" title="URL A"/>
+                                <variation key="userInterfaceStyle=dark">
+                                    <color key="backgroundColor" red="0.42352938649999999" green="0.43137252329999998" blue="0.44313728810000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </variation>
                                 <connections>
-                                    <action selector="btnUHDVideoPlayerTapped:" destination="BYZ-38-t0r" eventType="primaryActionTriggered" id="48a-G7-V0w"/>
+                                    <action selector="aBtnTapped:" destination="BYZ-38-t0r" eventType="primaryActionTriggered" id="n5x-jR-jIF"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tPx-jf-XdG">
-                                <rect key="frame" x="660" y="572" width="600" height="86"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tPx-jf-XdG">
+                                <rect key="frame" x="696" y="607" width="564" height="86"/>
                                 <color key="backgroundColor" systemColor="viewFlipsideBackgroundColor"/>
                                 <inset key="contentEdgeInsets" minX="40" minY="20" maxX="40" maxY="20"/>
                                 <state key="normal" title="Apple Reference Stream Play"/>
@@ -66,19 +73,8 @@
                                     <action selector="btnAppleRefVideoPlayerTapped:" destination="BYZ-38-t0r" eventType="primaryActionTriggered" id="W00-sJ-TqG"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="55w-o8-KoK">
-                                <rect key="frame" x="698" y="950" width="524" height="86"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" systemColor="viewFlipsideBackgroundColor"/>
-                                <inset key="contentEdgeInsets" minX="40" minY="20" maxX="40" maxY="20"/>
-                                <state key="normal" title="Play Custom Video Stream"/>
-                                <connections>
-                                    <action selector="btnCustomURLVideoPlayerTapped:" destination="BYZ-38-t0r" eventType="primaryActionTriggered" id="cDB-tL-MyZ"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lzV-N4-jCQ">
-                                <rect key="frame" x="600.5" y="682" width="719" height="86"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lzV-N4-jCQ">
+                                <rect key="frame" x="600.5" y="717" width="719" height="86"/>
                                 <color key="backgroundColor" systemColor="viewFlipsideBackgroundColor"/>
                                 <inset key="contentEdgeInsets" minX="40" minY="20" maxX="40" maxY="20"/>
                                 <state key="normal" title="DolbyVision P5 Reference Stream Play"/>
@@ -86,16 +82,18 @@
                                     <action selector="butDolbyP5VideoPlayerTapped:" destination="BYZ-38-t0r" eventType="primaryActionTriggered" id="aPG-kY-eVF"/>
                                 </connections>
                             </button>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Type Custom URL Here" textAlignment="center" adjustsFontSizeToFit="NO" minimumFontSize="24" translatesAutoresizingMaskIntoConstraints="NO" id="5bm-zQ-eIx">
-                                <rect key="frame" x="592.5" y="840" width="735" height="86"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <textField opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Type Custom URL Here" textAlignment="center" adjustsFontSizeToFit="NO" minimumFontSize="24" translatesAutoresizingMaskIntoConstraints="NO" id="5bm-zQ-eIx">
+                                <rect key="frame" x="592.5" y="820" width="735" height="96"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="79"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <button alpha="0.75" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4HO-na-7db">
+                            <button alpha="0.75" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4HO-na-7db">
                                 <rect key="frame" x="865" y="15" width="190" height="131"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="131" id="7sR-1R-glc"/>
+                                    <constraint firstAttribute="width" constant="190" id="xV5-fx-LUI"/>
+                                </constraints>
                                 <inset key="contentEdgeInsets" minX="40" minY="20" maxX="40" maxY="20"/>
                                 <state key="normal" title="Settings Button" image="icons8blk-automatic-350_White_GearONLY_Alpha_blkcenter"/>
                                 <state key="focused" image="icons8green-automatic-350_White_GearONLY_Alpha">
@@ -106,22 +104,79 @@
                                     <action selector="butGoToSettingsTapped:" destination="BYZ-38-t0r" eventType="primaryActionTriggered" id="pXe-QC-djW"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="NBCUniversal Test Stream Player" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="91P-hn-rhc">
-                                <rect key="frame" x="670" y="154" width="552" height="46"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.1176470518" green="0.1215686351" blue="0.13333332540000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <color key="textColor" systemColor="tintColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iJI-TY-Qko">
+                                <rect key="frame" x="660" y="477" width="600" height="86"/>
+                                <color key="backgroundColor" red="0.42352938649999999" green="0.43137252329999998" blue="0.44705885649999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <inset key="contentEdgeInsets" minX="40" minY="20" maxX="40" maxY="20"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="URL D"/>
+                                <connections>
+                                    <action selector="dBtnTapped:" destination="BYZ-38-t0r" eventType="primaryActionTriggered" id="xdz-Wc-e0Y"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="55w-o8-KoK">
+                                <rect key="frame" x="716" y="934" width="506" height="86"/>
+                                <color key="backgroundColor" systemColor="viewFlipsideBackgroundColor"/>
+                                <inset key="contentEdgeInsets" minX="40" minY="20" maxX="40" maxY="20"/>
+                                <state key="normal" title="Play Custom Video Stream"/>
+                                <connections>
+                                    <action selector="btnCustomURLVideoPlayerTapped:" destination="BYZ-38-t0r" eventType="primaryActionTriggered" id="cDB-tL-MyZ"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="wu6-TO-1qx"/>
                         <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="iJI-TY-Qko" firstAttribute="leading" secondItem="wu6-TO-1qx" secondAttribute="leading" constant="580" id="5AP-ec-jTN"/>
+                            <constraint firstItem="lzV-N4-jCQ" firstAttribute="top" secondItem="tPx-jf-XdG" secondAttribute="bottom" constant="24" symbolic="YES" id="7PR-GE-aN6"/>
+                            <constraint firstItem="wu6-TO-1qx" firstAttribute="trailing" secondItem="5bm-zQ-eIx" secondAttribute="trailing" constant="512.5" id="7q0-oa-hBo"/>
+                            <constraint firstItem="lzV-N4-jCQ" firstAttribute="top" secondItem="tPx-jf-XdG" secondAttribute="bottom" constant="24" symbolic="YES" id="8ZW-kq-EHC"/>
+                            <constraint firstItem="55w-o8-KoK" firstAttribute="top" secondItem="5bm-zQ-eIx" secondAttribute="bottom" constant="18" id="9fn-YT-Bsk"/>
+                            <constraint firstItem="3bF-Hx-aCJ" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-130" id="CPT-Wo-0j9"/>
+                            <constraint firstItem="iJI-TY-Qko" firstAttribute="top" secondItem="3bF-Hx-aCJ" secondAttribute="bottom" constant="24" symbolic="YES" id="Dcb-Ng-f7m"/>
+                            <constraint firstItem="3bF-Hx-aCJ" firstAttribute="top" secondItem="7wb-qA-PDV" secondAttribute="bottom" constant="24" symbolic="YES" id="G7h-ig-VEm"/>
+                            <constraint firstItem="wu6-TO-1qx" firstAttribute="trailing" secondItem="55w-o8-KoK" secondAttribute="trailing" constant="600" id="GeF-co-gJp"/>
+                            <constraint firstItem="3bF-Hx-aCJ" firstAttribute="top" secondItem="7wb-qA-PDV" secondAttribute="bottom" constant="24" symbolic="YES" id="Her-Hm-U5r"/>
+                            <constraint firstItem="tPx-jf-XdG" firstAttribute="top" secondItem="iJI-TY-Qko" secondAttribute="bottom" constant="44" id="I6W-Bm-IgB"/>
+                            <constraint firstItem="3bF-Hx-aCJ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="IGh-tt-p4G"/>
+                            <constraint firstItem="wu6-TO-1qx" firstAttribute="trailing" secondItem="tPx-jf-XdG" secondAttribute="trailing" constant="580" id="JOH-gh-5tg"/>
+                            <constraint firstItem="4HO-na-7db" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-459.5" id="JZs-vd-JHE"/>
+                            <constraint firstItem="Yff-fz-HBa" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="NdY-CA-Lez"/>
+                            <constraint firstItem="tPx-jf-XdG" firstAttribute="top" secondItem="iJI-TY-Qko" secondAttribute="bottom" constant="44" id="NyP-bX-yG0"/>
+                            <constraint firstItem="4HO-na-7db" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="PI3-eR-j9s"/>
+                            <constraint firstItem="wu6-TO-1qx" firstAttribute="trailing" secondItem="lzV-N4-jCQ" secondAttribute="trailing" constant="520.5" id="Pk1-kd-Vin"/>
+                            <constraint firstItem="iJI-TY-Qko" firstAttribute="top" secondItem="3bF-Hx-aCJ" secondAttribute="bottom" constant="24" symbolic="YES" id="RGb-Ea-e9Y"/>
+                            <constraint firstItem="wu6-TO-1qx" firstAttribute="trailing" secondItem="3bF-Hx-aCJ" secondAttribute="trailing" constant="580" id="WOo-BV-URl"/>
+                            <constraint firstItem="iJI-TY-Qko" firstAttribute="top" secondItem="3bF-Hx-aCJ" secondAttribute="bottom" constant="24" symbolic="YES" id="XMC-LO-Z7L"/>
+                            <constraint firstItem="lzV-N4-jCQ" firstAttribute="leading" secondItem="wu6-TO-1qx" secondAttribute="leading" constant="520.5" id="XSg-kX-cGl"/>
+                            <constraint firstItem="7wb-qA-PDV" firstAttribute="leading" secondItem="wu6-TO-1qx" secondAttribute="leading" constant="580" id="Y0b-1J-1mi"/>
+                            <constraint firstItem="wu6-TO-1qx" firstAttribute="trailing" secondItem="iJI-TY-Qko" secondAttribute="trailing" constant="580" id="axu-D5-NU7"/>
+                            <constraint firstItem="55w-o8-KoK" firstAttribute="bottom" secondItem="wu6-TO-1qx" secondAttribute="bottom" id="beZ-md-UY2"/>
+                            <constraint firstItem="7wb-qA-PDV" firstAttribute="top" secondItem="Yff-fz-HBa" secondAttribute="bottom" constant="24" symbolic="YES" id="bjy-x8-cAh"/>
+                            <constraint firstItem="5bm-zQ-eIx" firstAttribute="top" secondItem="lzV-N4-jCQ" secondAttribute="bottom" constant="37" id="bwr-Dd-bXq"/>
+                            <constraint firstItem="55w-o8-KoK" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="18" id="dDI-Mw-hMc"/>
+                            <constraint firstItem="4HO-na-7db" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="dzw-vF-oKI"/>
+                            <constraint firstItem="3bF-Hx-aCJ" firstAttribute="leading" secondItem="wu6-TO-1qx" secondAttribute="leading" constant="580" id="fOx-MZ-Rj5"/>
+                            <constraint firstItem="5bm-zQ-eIx" firstAttribute="top" secondItem="lzV-N4-jCQ" secondAttribute="bottom" constant="37" id="hFU-En-pI6"/>
+                            <constraint firstItem="wu6-TO-1qx" firstAttribute="trailing" secondItem="7wb-qA-PDV" secondAttribute="trailing" constant="580" id="i1z-LS-DoI"/>
+                            <constraint firstItem="Yff-fz-HBa" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-350" id="kPF-fS-0aw"/>
+                            <constraint firstItem="wu6-TO-1qx" firstAttribute="trailing" secondItem="55w-o8-KoK" secondAttribute="trailing" constant="618" id="knd-HS-YLg"/>
+                            <constraint firstItem="3bF-Hx-aCJ" firstAttribute="top" secondItem="7wb-qA-PDV" secondAttribute="bottom" constant="24" symbolic="YES" id="mLw-rn-gUa"/>
+                            <constraint firstItem="3bF-Hx-aCJ" firstAttribute="leading" secondItem="wu6-TO-1qx" secondAttribute="leading" constant="580" id="mbu-iu-CFZ"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="55w-o8-KoK" secondAttribute="bottom" constant="44" id="qij-V8-muc"/>
+                            <constraint firstItem="wu6-TO-1qx" firstAttribute="trailing" secondItem="3bF-Hx-aCJ" secondAttribute="trailing" constant="580" id="sXq-rL-0jG"/>
+                            <constraint firstItem="5bm-zQ-eIx" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="496.5" id="uBl-l3-dZ4"/>
+                            <constraint firstItem="4HO-na-7db" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="z8t-gV-mo4"/>
+                            <constraint firstItem="55w-o8-KoK" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="437" id="zFM-jM-3ZU"/>
+                            <constraint firstItem="55w-o8-KoK" firstAttribute="leading" secondItem="wu6-TO-1qx" secondAttribute="leading" constant="636" id="zuV-94-efo"/>
+                        </constraints>
                     </view>
                     <connections>
                         <outlet property="CustomURLTextf" destination="5bm-zQ-eIx" id="MhI-9T-AvI"/>
                         <outlet property="aButton" destination="Yff-fz-HBa" id="SRH-aZ-yuj"/>
                         <outlet property="bButton" destination="7wb-qA-PDV" id="Up6-cw-Qdh"/>
                         <outlet property="cButton" destination="3bF-Hx-aCJ" id="j1C-Jd-Rqw"/>
+                        <outlet property="dButton" destination="iJI-TY-Qko" id="I4w-rn-PxR"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -135,9 +190,6 @@
         <image name="icons8green-automatic-350_White_GearONLY_Alpha" width="373" height="350"/>
         <systemColor name="darkTextColor">
             <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
-        <systemColor name="tintColor">
-            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
         <systemColor name="viewFlipsideBackgroundColor">
             <color red="0.1215686274509804" green="0.12941176470588239" blue="0.14117647058823529" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>

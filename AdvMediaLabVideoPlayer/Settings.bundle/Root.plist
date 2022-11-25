@@ -16,24 +16,6 @@
 			<key>Type</key>
 			<string>PSTextFieldSpecifier</string>
 			<key>Title</key>
-			<string>Button A URL: </string>
-			<key>Key</key>
-			<string>a_url</string>
-			<key>DefaultValue</key>
-			<string>https://xxx/index.m3u8</string>
-			<key>IsSecure</key>
-			<false/>
-			<key>KeyboardType</key>
-			<string>Alphabet</string>
-			<key>AutocapitalizationType</key>
-			<string>None</string>
-			<key>AutocorrectionType</key>
-			<string>No</string>
-		</dict>
-		<dict>
-			<key>Type</key>
-			<string>PSTextFieldSpecifier</string>
-			<key>Title</key>
 			<string>Button A Label: </string>
 			<key>Key</key>
 			<string>a_button_label</string>
@@ -52,9 +34,9 @@
 			<key>Type</key>
 			<string>PSTextFieldSpecifier</string>
 			<key>Title</key>
-			<string>Button B URL: </string>
+			<string>Button A URL: </string>
 			<key>Key</key>
-			<string>b_url</string>
+			<string>a_url</string>
 			<key>DefaultValue</key>
 			<string>https://xxx/index.m3u8</string>
 			<key>IsSecure</key>
@@ -88,9 +70,9 @@
 			<key>Type</key>
 			<string>PSTextFieldSpecifier</string>
 			<key>Title</key>
-			<string>Button C URL: </string>
+			<string>Button B URL: </string>
 			<key>Key</key>
-			<string>c_url</string>
+			<string>b_url</string>
 			<key>DefaultValue</key>
 			<string>https://xxx/index.m3u8</string>
 			<key>IsSecure</key>
@@ -111,6 +93,60 @@
 			<string>c_button_label</string>
 			<key>DefaultValue</key>
 			<string>URL C</string>
+			<key>IsSecure</key>
+			<false/>
+			<key>KeyboardType</key>
+			<string>Alphabet</string>
+			<key>AutocapitalizationType</key>
+			<string>None</string>
+			<key>AutocorrectionType</key>
+			<string>No</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSTextFieldSpecifier</string>
+			<key>Title</key>
+			<string>Button C URL: </string>
+			<key>Key</key>
+			<string>c_url</string>
+			<key>DefaultValue</key>
+			<string>https://xxx/index.m3u8</string>
+			<key>IsSecure</key>
+			<false/>
+			<key>KeyboardType</key>
+			<string>Alphabet</string>
+			<key>AutocapitalizationType</key>
+			<string>None</string>
+			<key>AutocorrectionType</key>
+			<string>No</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSTextFieldSpecifier</string>
+			<key>Title</key>
+			<string>Button D Label: </string>
+			<key>Key</key>
+			<string>d_button_label</string>
+			<key>DefaultValue</key>
+			<string>URL D</string>
+			<key>IsSecure</key>
+			<false/>
+			<key>KeyboardType</key>
+			<string>Alphabet</string>
+			<key>AutocapitalizationType</key>
+			<string>None</string>
+			<key>AutocorrectionType</key>
+			<string>No</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSTextFieldSpecifier</string>
+			<key>Title</key>
+			<string>Button D URL: </string>
+			<key>Key</key>
+			<string>d_url</string>
+			<key>DefaultValue</key>
+			<string>https://xxx/index.m3u8</string>
 			<key>IsSecure</key>
 			<false/>
 			<key>KeyboardType</key>
