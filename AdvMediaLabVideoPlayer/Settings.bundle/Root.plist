@@ -178,7 +178,7 @@
 			<key>Type</key>
 			<string>PSTextFieldSpecifier</string>
 			<key>Title</key>
-			<string>Dolby Reference URL: </string>
+			<string>Dolby Reference URL (DOLBY MUST FIX): </string>
 			<key>Key</key>
 			<string>dolby_ref_url</string>
 			<key>DefaultValue</key>

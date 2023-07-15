@@ -114,8 +114,9 @@
 		7E42BA7021D0710400B29659 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				BuildIndependentTargetsInParallel = YES;
 				LastSwiftUpdateCheck = 1010;
-				LastUpgradeCheck = 1410;
+				LastUpgradeCheck = 1430;
 				ORGANIZATIONNAME = NBCUniversal;
 				TargetAttributes = {
 					7E42BA7721D0710400B29659 = {
@@ -343,7 +344,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 2.0;
+				MARKETING_VERSION = 2.04;
 				PRODUCT_BUNDLE_IDENTIFIER = com.nbcuni.advmediavideoplayer;
 				PRODUCT_NAME = "AdvMediaLab Video Player";
 				SUPPORTED_PLATFORMS = "appletvos appletvsimulator";
@@ -351,7 +352,7 @@
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 3;
-				TVOS_DEPLOYMENT_TARGET = 14.0;
+				TVOS_DEPLOYMENT_TARGET = 16.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Debug;
@@ -371,7 +372,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 2.0;
+				MARKETING_VERSION = 2.04;
 				PRODUCT_BUNDLE_IDENTIFIER = com.nbcuni.advmediavideoplayer;
 				PRODUCT_NAME = "AdvMediaLab Video Player";
 				SUPPORTED_PLATFORMS = "appletvos appletvsimulator";
@@ -379,7 +380,7 @@
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 3;
-				TVOS_DEPLOYMENT_TARGET = 14.0;
+				TVOS_DEPLOYMENT_TARGET = 16.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Release;
